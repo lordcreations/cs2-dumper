@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-11-27 22:53:17.703713100 UTC
+// 2024-12-03 21:27:33.896237600 UTC
 
 #pragma once
 
@@ -1119,7 +1119,7 @@ namespace cs2_dumper {
             // MPulseEditorHeaderIcon
             namespace CPulseCell_WaitForCursorsWithTag {
                 constexpr std::ptrdiff_t m_bTagSelfWhenComplete = 0x80; // bool
-                constexpr std::ptrdiff_t m_nDesiredKillPriority = 0x84; // PulseCursorCancelPriority_t
+                constexpr std::ptrdiff_t m_nDesiredKillPriority = 0x84; // 
             }
             // Parent: CPulseCell_BaseFlow
             // Field count: 2

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-11-27 22:53:17.703713100 UTC
+// 2024-12-03 21:27:33.896237600 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -528,7 +528,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class FeTaperedCapsuleRigid_t {
-            public const nint vSphere = 0x0; // fltx4[2]
+            public const nint vSphere = 0x0; // 
             public const nint nNode = 0x20; // uint16
             public const nint nCollisionMask = 0x22; // uint16
             public const nint nVertexMapIndex = 0x24; // uint16

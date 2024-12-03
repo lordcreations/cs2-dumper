@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-11-27 22:53:17.703713100 UTC
+// 2024-12-03 21:27:33.896237600 UTC
 
 #pragma once
 
@@ -452,7 +452,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace SelectedEditItemInfo_t {
-                constexpr std::ptrdiff_t m_EditItems = 0x0; // CUtlVector<SosEditItemInfo_t>
+                constexpr std::ptrdiff_t m_EditItems = 0x0; // 
             }
             // Parent: None
             // Field count: 9

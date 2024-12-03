@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-11-27 22:53:17.703713100 UTC
+// 2024-12-03 21:27:33.896237600 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
@@ -886,7 +886,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bReleaseRagdoll = 0xFA4; // bool
             public const nint m_iEyeAttachment = 0xFA5; // AttachmentHandle_t
             public const nint m_bFadingOut = 0xFA6; // bool
-            public const nint m_flScaleEnd = 0xFA8; // float32[10]
+            public const nint m_flScaleEnd = 0xFA8; // 
             public const nint m_flScaleTimeStart = 0xFD0; // GameTime_t[10]
             public const nint m_flScaleTimeEnd = 0xFF8; // GameTime_t[10]
         }
@@ -1406,7 +1406,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flMagnitude = 0x44; // float32
             public const nint m_flRadius = 0x48; // float32
             public const nint m_nSurfaceProp = 0x4C; // CUtlStringToken
-            public const nint m_nEffectIndex = 0x50; // CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>
+            public const nint m_nEffectIndex = 0x50; // 
             public const nint m_nDamageType = 0x58; // uint32
             public const nint m_nPenetrate = 0x5C; // uint8
             public const nint m_nMaterial = 0x5E; // uint16
@@ -2335,9 +2335,9 @@ namespace CS2Dumper.Schemas {
             public const nint m_CommandContext = 0x578; // C_CommandContext
             public const nint m_nInButtonsWhichAreToggles = 0x620; // uint64
             public const nint m_nTickBase = 0x628; // uint32
-            public const nint m_hPawn = 0x62C; // CHandle<C_BasePlayerPawn>
+            public const nint m_hPawn = 0x62C; // 
             public const nint m_bKnownTeamMismatch = 0x630; // bool
-            public const nint m_hPredictedPawn = 0x634; // CHandle<C_BasePlayerPawn>
+            public const nint m_hPredictedPawn = 0x634; // 
             public const nint m_nSplitScreenSlot = 0x638; // CSplitScreenSlot
             public const nint m_hSplitOwner = 0x63C; // CHandle<CBasePlayerController>
             public const nint m_hSplitScreenPlayers = 0x640; // CUtlVector<CHandle<CBasePlayerController>>
@@ -4641,7 +4641,7 @@ namespace CS2Dumper.Schemas {
         public static class CPrecipitationVData {
             public const nint m_szParticlePrecipitationEffect = 0x28; // CResourceNameTyped<CWeakHandle<InfoForResourceTypeIParticleSystemDefinition>>
             public const nint m_flInnerDistance = 0x108; // float32
-            public const nint m_nAttachType = 0x10C; // ParticleAttachment_t
+            public const nint m_nAttachType = 0x10C; // 
             public const nint m_bBatchSameVolumeType = 0x110; // bool
             public const nint m_nRTEnvCP = 0x114; // int32
             public const nint m_nRTEnvCPComponent = 0x118; // int32
@@ -4688,8 +4688,8 @@ namespace CS2Dumper.Schemas {
         public static class CCSPlayer_ActionTrackingServices {
             public const nint m_hLastWeaponBeforeC4AutoSwitch = 0x40; // CHandle<C_BasePlayerWeapon>
             public const nint m_bIsRescuing = 0x44; // bool
-            public const nint m_weaponPurchasesThisMatch = 0x48; // WeaponPurchaseTracker_t
-            public const nint m_weaponPurchasesThisRound = 0xA0; // WeaponPurchaseTracker_t
+            public const nint m_weaponPurchasesThisMatch = 0x48; // 
+            public const nint m_weaponPurchasesThisRound = 0xA0; // 
         }
         // Parent: None
         // Field count: 13
@@ -4759,7 +4759,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_pOutputOnSpawned = 0x588; // CEntityIOOutput
             public const nint m_clientOnlyEntityBehavior = 0x5B0; // PointTemplateClientOnlyEntityBehavior_t
             public const nint m_ownerSpawnGroupType = 0x5B4; // PointTemplateOwnerSpawnGroupType_t
-            public const nint m_createdSpawnGroupHandles = 0x5B8; // CUtlVector<uint32>
+            public const nint m_createdSpawnGroupHandles = 0x5B8; // 
             public const nint m_SpawnedEntityHandles = 0x5D0; // CUtlVector<CEntityHandle>
             public const nint m_ScriptSpawnCallback = 0x5E8; // HSCRIPT
             public const nint m_ScriptCallbackScope = 0x5F0; // HSCRIPT
@@ -5951,7 +5951,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_explosionCustomEffect = 0x10E0; // CUtlSymbolLarge
             public const nint m_explosionCustomSound = 0x10E8; // CUtlSymbolLarge
             public const nint m_explosionModifier = 0x10F0; // CUtlSymbolLarge
-            public const nint m_hPhysicsAttacker = 0x10F8; // CHandle<C_BasePlayerPawn>
+            public const nint m_hPhysicsAttacker = 0x10F8; // 
             public const nint m_flLastPhysicsInfluenceTime = 0x10FC; // GameTime_t
             public const nint m_flDefaultFadeScale = 0x1100; // float32
             public const nint m_hLastAttacker = 0x1104; // CHandle<C_BaseEntity>
@@ -6061,7 +6061,7 @@ namespace CS2Dumper.Schemas {
         // NetworkVarNames: m_bIsActive (bool)
         public static class C_EnvScreenOverlay {
             public const nint m_iszOverlayNames = 0x568; // CUtlSymbolLarge[10]
-            public const nint m_flOverlayTimes = 0x5B8; // float32[10]
+            public const nint m_flOverlayTimes = 0x5B8; // 
             public const nint m_flStartTime = 0x5E0; // GameTime_t
             public const nint m_iDesiredOverlay = 0x5E4; // int32
             public const nint m_bIsActive = 0x5E8; // bool
@@ -6385,7 +6385,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_inertiaScale = 0x1118; // float32
             public const nint m_vecDamagePosition = 0x111C; // Vector
             public const nint m_vecDamageDirection = 0x1128; // Vector
-            public const nint m_nDamageType = 0x1134; // DamageTypes_t
+            public const nint m_nDamageType = 0x1134; // 
         }
         // Parent: C_CSGO_TeamPreviewCamera
         // Field count: 0

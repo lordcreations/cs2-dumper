@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-11-27 22:53:17.703713100 UTC
+// 2024-12-03 21:27:33.896237600 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -533,7 +533,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod FeTaperedCapsuleRigid_t {
-                pub const vSphere: usize = 0x0; // fltx4[2]
+                pub const vSphere: usize = 0x0; // 
                 pub const nNode: usize = 0x20; // uint16
                 pub const nCollisionMask: usize = 0x22; // uint16
                 pub const nVertexMapIndex: usize = 0x24; // uint16
